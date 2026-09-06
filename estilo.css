@@ -22,7 +22,6 @@ body {
     color: #1e1e1e;
     font-family: 'Inter', sans-serif;
 }
-
 #Informacion-Total h1 {
     text-align: center;
     color: #1d3557;
@@ -33,7 +32,6 @@ body {
     margin-bottom: 14px;
     letter-spacing: 0.5px;
 }
-
 #carnet-texto {
     display: inline-block;
     font-weight: 600;
@@ -44,14 +42,41 @@ body {
     font-size: 14px;
     margin-bottom: 12px;
 }
-
 #Descripcion {
     font-size: 16px;
     line-height: 1.45;
     color: #2b2b2b;
 }
-
 #Descripcion p:last-child {
     margin-top: 8px;
     text-align: justify;
+}
+
+#main{
+    width: 960px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #fa8f2d;
+}
+#container{
+    width: 950px;
+    height: 350px;
+    display: panel-grid;
+    align-items: left;
+    border-radius: 10px;
+    background-color: #222222;
+}
+#container h2{
+    margin-top: 1px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    color: #fa8f2d;
+}
+#container p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #fa8f2d;
 }
